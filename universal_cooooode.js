@@ -80,7 +80,7 @@ const createHeaderRight = function() {
 const createHeader = function() {
     let header_element = document.getElementById("the_header");
     // Create Zugerujk.net left area
-    let zugerujknet_title_text = "Zugerujk.net 😎"
+    let zugerujknet_title_text = "Sumire Rambles 🌸"
     let header_element_left = document.createElement("div");
     header_element_left.setAttribute("class", "left");
     header_element_left.setAttribute("id", "zugerujknet_title");
