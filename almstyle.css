@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image:url('images/SiteAssets/Background/gradient_v3_light.png');
+    background-image:url('images/SiteAssets/Background/background1.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     position:relative;
@@ -14,7 +14,7 @@ body {
 }
 
 * {
-    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Comic Neue', sans-serif;
     color: whitesmoke;
     z-index: 2;
 }
