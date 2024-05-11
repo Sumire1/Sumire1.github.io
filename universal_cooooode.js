@@ -12,25 +12,25 @@ const createVerticalSpacer = function() {
 /*
     HEADER STUFF
 */
-const changeHeaderToSecret = function() {
+    const changeHeaderToSecret = function() {
     const headerElement = document.getElementsByClassName("right")[0];
-    console.log("Say hi to debug Alm 🥺");
-    headerElement.id = "header_right_secret";
+     console.log("Say hi to debug Alm 🥺");
+     headerElement.id = "header_right_secret";
     headerElement.title = "Art credit: Hidari";
-}
+ }
 
-const determineHeaderSeed = function() {
+ const determineHeaderSeed = function() {
     let the_date = new Date();
     let seconds_since_epoch = Math.round(the_date.getTime() / 1000);
     let header_seed = Math.floor(seconds_since_epoch / 3600) % 9;
     console.log("The header seed is " + header_seed + ".");
     return header_seed;
-}
+ }
 
-const createHeaderRight = function() {
-    let header_element_right = document.createElement("div");
-    header_element_right.setAttribute("class", "right");
-    let header_number = determineHeaderSeed();
+ const createHeaderRight = function() {
+     let header_element_right = document.createElement("div");
+     header_element_right.setAttribute("class", "right");
+     let header_number = determineHeaderSeed();
     
     switch (header_number) {
         case 0:
@@ -127,11 +127,11 @@ const createNavbarSpacer = function() {
 // To create a navbar (so cool, so easy!)
 const createNavbar = function(blocked_space_arg = "") {
     // Establish the hyperlinks
-  // let home_link = "https://zugerujk.net/index.html";
-    // let blog_link = "https://zugerujk.net/blog.html";
-    // let projects_link = "https://zugerujk.net/projects.html";
-    // let gallery_link = "https://zugerujk.net/gallery.html";
-    // let bio_link = "https://zugerujk.net/bio.html";
+  let home_link = "";
+    let blog_link = "";
+    let projects_link = "";
+    let gallery_link = "";
+    let bio_link = "";
     switch(blocked_space_arg) {
         case "home":
             home_link = "";
