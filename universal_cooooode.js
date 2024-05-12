@@ -127,26 +127,26 @@ const createNavbarSpacer = function() {
 // To create a navbar (so cool, so easy!)
 const createNavbar = function(blocked_space_arg = "") {
     // Establish the hyperlinks
-  let home_link = "";
-    let blog_link = "";
-    let projects_link = "";
-    let gallery_link = "";
-    let bio_link = "";
+  let home_link = "index.html";
+    let blog_link = "blog.html";
+    let projects_link = "projects.html";
+    let gallery_link = "gallery.html";
+    let bio_link = "bio.html";
     switch(blocked_space_arg) {
         case "home":
-            home_link = "";
+            home_link = "index.html";
             break;
         case "blog":
-            blog_link = "";
+            blog_link = "blog.html";
             break;
         case "projects":
-            projects_link = "";
+            projects_link = "projects.html";
             break;
         case "gallery":
-            gallery_link = "";
+            gallery_link = "gallery.html";
             break;
         case "bio":
-            bio_link = "";
+            bio_link = "bio.html";
             break;
     }
 
@@ -171,12 +171,12 @@ const createNavbar = function(blocked_space_arg = "") {
     navbar_master_element.append(createNavbarSpacer());
     navbar_master_element.append(bio_navbar_element);
 
-    var createFuster = false;
-    // Add Fuster
-    if (createFuster) { 
-        fuster_element = createFusterElement();
-        navbar_master_element.append(fuster_element);
-    }
+    // var createFuster = false;
+    // // Add Fuster
+    // if (createFuster) { 
+    //     fuster_element = createFusterElement();
+    //     navbar_master_element.append(fuster_element);
+    
 };
 
 

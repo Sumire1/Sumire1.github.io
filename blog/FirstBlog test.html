@@ -6,24 +6,28 @@
         <title></title>
         <link rel="icon" type="image/png" href="" />
         <meta name ="description" content="" />
-        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
         <meta name="theme-color" content="" />
 
-        <link rel="stylesheet" href="almstyle.css">
+        <link rel="stylesheet" href="../almstyle.css">
     </head>
     <body>
-
         <!-- The header, where Zugerujk.net and a splash Zug will be shown -->
         <div class="flex" id="the_header"></div>
 
         <!-- The navbar, where you can choose between a bunch of pages -->
         <div class="flex" id="the_navbar"></div>
-
+        
         <!-- The body, where all the good stuff happens. -->
         <div class="flex" id="the_body">
             <div class="left" id="body_left">
-                <div class="blog_entry">
-                    <p></p>
+                <div class="blog_entry_var1">
+                    <h2>This is a test for the title </h2>
+                    <div class="news_feed_entry_divider"></div>
+                    <p>This is the test for an entries article</p>
+                    <center><img src="exampleimage.jpg" height="400px" width="auto"></center>
+                    <center><p class="caption">Example caption</p></center>
+                    <div class="news_feed_entry_end">12/5/24 12:00:01 AM CST</div>  
                 </div>
             </div>
         </div>
@@ -32,12 +36,9 @@
         <div id="the_footer"></div>
         
         <!-- Populate divs-->
-        <script type="text/javascript" src="universal_cooooode.js" onload="createElements('bio')"></script>
+        <script type="text/javascript" src="../universal_cooooode.js" onload="createElements()"></script>
 
-        <!-- Create pretty triangles-->
-        <div id="background_triangles_container">
-            <div id="background_triangles"></div>
-            <div id="background_triangles_overlay"></div>
+        
         </div>
     </body>
 </html>

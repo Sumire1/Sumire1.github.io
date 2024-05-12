@@ -10,7 +10,7 @@ var page_listing = {
         displaynum: "#001",
         title: "",
         date: "",
-        link: "https://zugerujk.net/blog/blog001",
+        link: "blog/FirstBlog test.html",
         var: "0",
     }
 }
