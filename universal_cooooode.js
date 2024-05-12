@@ -185,7 +185,7 @@ const createNavbar = function(blocked_space_arg = "") {
     FOOTER STUFF
 */
 const createFooter = function() {
-    let generic_footer_text = "All rights reserved, Me, 2024. v0.7.18";
+    let generic_footer_text = "site content from Sumire. Site exists thanks to Zugerujk find them at https:Zugerujk.net";
     
     // Find the navbar div
     let footer_element = document.getElementById("the_footer");
